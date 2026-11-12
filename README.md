@@ -1,5 +1,7 @@
 # SQL Basics
 
+[![GitHub Pages](https://github.com/tzayadet/SQL-Basics/actions/workflows/pages.yml/badge.svg)](https://github.com/tzayadet/SQL-Basics/actions/workflows/pages.yml)
+
 Repositorio de fundamentos de SQL: apuntes, consultas introductorias y prácticas de operaciones sobre bases de datos relacionales.
 
 ## Contenido
@@ -29,3 +31,10 @@ Las consultas deben ejecutarse sobre el esquema correspondiente a cada ejercicio
 
 - SQL
 - Bases de datos relacionales
+
+## Project showcase
+
+[Open the SQL Basics showcase](https://tzayadet.github.io/SQL-Basics/) · [Showcase source](docs/index.html)
+
+The page displays a sample query and links to the study notes. It does not execute SQL. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**.
+
