@@ -4,9 +4,9 @@ Repositorio de fundamentos de SQL: apuntes, consultas introductorias y práctica
 
 ## Contenido
 
-- `#APUNTES_SQL.md`: apuntes y referencia de sintaxis.
-- `SQL Basics_ Simple WHERE and ORDER BY.sql`: consulta de práctica sobre selección, filtros y ordenación.
-- `SQLOps1.md` y `SQLOps2.md`: notas y ejercicios adicionales.
+- [apuntes-sql.md](apuntes-sql.md): apuntes y referencia de sintaxis.
+- [sql-basics-where-order-by.sql](sql-basics-where-order-by.sql): consulta de práctica sobre selección, filtros y ordenación.
+- [sql-operations-01.md](sql-operations-01.md) y [sql-operations-02.md](sql-operations-02.md): notas y ejercicios adicionales.
 
 Los retos **Lost at SQL** y **SQL Police Department** se mantienen en sus repositorios independientes para evitar copias divergentes:
 
