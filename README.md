@@ -1,40 +1,57 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/DATABASES-SQL_BASICS-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="SQL Basics"/>
+  <img src="https://img.shields.io/badge/RELATIONAL-QUERY_PRACTICE-101010?style=for-the-badge&logo=postgresql&logoColor=00FF41" alt="SQL"/>
+</p>
+
 # SQL Basics
+
+SQL notes and introductory exercises covering relational queries, filtering, ordering and data aggregation.
+
+<p align="center">
+  <a href="https://tzayadet.github.io/SQL-Basics/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
+  <a href="https://github.com/tzayadet/SQL-Basics"><strong>SOURCE CODE</strong></a>
+</p>
 
 [![GitHub Pages](https://github.com/tzayadet/SQL-Basics/actions/workflows/pages.yml/badge.svg)](https://github.com/tzayadet/SQL-Basics/actions/workflows/pages.yml)
 
-Repositorio de fundamentos de SQL: apuntes, consultas introductorias y prácticas de operaciones sobre bases de datos relacionales.
+## Contents
 
-## Contenido
+- [SQL notes](apuntes-sql.md): syntax notes and quick reference.
+- [WHERE and ORDER BY](sql-basics-where-order-by.sql): introductory filtering and sorting exercise.
+- [SQL operations 01](sql-operations-01.md) and [SQL operations 02](sql-operations-02.md): additional notes and exercises.
 
-- [apuntes-sql.md](apuntes-sql.md): apuntes y referencia de sintaxis.
-- [sql-basics-where-order-by.sql](sql-basics-where-order-by.sql): consulta de práctica sobre selección, filtros y ordenación.
-- [sql-operations-01.md](sql-operations-01.md) y [sql-operations-02.md](sql-operations-02.md): notas y ejercicios adicionales.
-
-Los retos **Lost at SQL** y **SQL Police Department** se mantienen en sus repositorios independientes para evitar copias divergentes:
+More focused exercises remain in their own repositories to avoid divergent copies:
 
 - [SQL Lost at SQL](https://github.com/tzayadet/SQL-Lost-at-SQL)
 - [SQL Police Department](https://github.com/tzayadet/SQL-Police-Department)
 
-## Temas
+## Topics
 
-- SELECT, WHERE y ORDER BY.
-- DISTINCT y operadores lógicos.
-- Funciones de agregación.
-- GROUP BY y HAVING.
-- Consultas y análisis de conjuntos de datos.
+- SELECT, WHERE and ORDER BY.
+- DISTINCT and logical operators.
+- Aggregate functions.
+- GROUP BY and HAVING.
+- Querying and analysing relational datasets.
 
-## Ejecución
+## Run the exercises
 
-Las consultas deben ejecutarse sobre el esquema correspondiente a cada ejercicio en un SGBD compatible. Este repositorio contiene ejercicios y apuntes, no una base de datos completa.
+Execute each query against the schema specified by its exercise in a compatible relational database management system. This repository contains notes and queries, not a complete database instance.
 
-## Tecnologías
+## Technology
 
 - SQL
-- Bases de datos relacionales
+- Relational databases
 
-## Project showcase
+## Showcase and deployment
 
-[Open the SQL Basics showcase](https://tzayadet.github.io/SQL-Basics/) · [Showcase source](docs/index.html)
+The [static showcase](https://tzayadet.github.io/SQL-Basics/) displays sample queries and links to the study notes. It does not execute SQL in the browser.
 
-The page displays a sample query and links to the study notes. It does not execute SQL. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**.
+The Pages workflow is defined in `.github/workflows/pages.yml`. Deployment is gated by the `ENABLE_PAGES=true` Actions variable.
 
+## Scope
+
+This is a learning repository. Query examples may require adaptation to the SQL dialect and schema used by a specific database.
+
+## License
+
+See [LICENSE](LICENSE).
