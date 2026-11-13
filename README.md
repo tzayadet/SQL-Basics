@@ -8,8 +8,8 @@
 SQL notes and introductory exercises covering relational queries, filtering, ordering and data aggregation.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/SQL-Basics/"><strong>LIVE DEMO ↗</strong></a> ·
-  <a href="https://github.com/tzayadet/SQL-Basics"><strong>SOURCE CODE</strong></a>
+  <a href="docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://github.com/tzayadet/SQL-Basics"><strong>SOURCE CODE</strong></a> · <sub>PAGES ACTIVATION REQUIRED</sub>
 </p>
 
 [![GitHub Pages](https://github.com/tzayadet/SQL-Basics/actions/workflows/pages.yml/badge.svg)](https://github.com/tzayadet/SQL-Basics/actions/workflows/pages.yml)
@@ -44,7 +44,7 @@ Execute each query against the schema specified by its exercise in a compatible 
 
 ## Showcase and deployment
 
-The [static showcase](https://tzayadet.github.io/SQL-Basics/) displays sample queries and links to the study notes. It does not execute SQL in the browser.
+The static showcase source is in `docs/`; GitHub Pages activation is required before it can be viewed publicly. It displays sample queries and links to study notes; it does not execute SQL in the browser.
 
 The Pages workflow is defined in `.github/workflows/pages.yml` and publishes the static showcase.
 
